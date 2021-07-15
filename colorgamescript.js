@@ -1,3 +1,7 @@
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('service-worker.js');
+}
+
 // Selecting
 var squares = document.querySelectorAll(".square");
 var colorDisplay = document.getElementById("colorDisplay");
